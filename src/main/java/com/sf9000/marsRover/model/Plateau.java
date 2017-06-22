@@ -1,6 +1,6 @@
 package com.sf9000.marsRover.model;
 
-import com.sf9000.marsRover.Rover;
+import com.sf9000.marsRover.business.Rover;
 
 import java.util.ArrayList;
 import java.util.List;

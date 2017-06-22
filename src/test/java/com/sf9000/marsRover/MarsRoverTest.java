@@ -1,6 +1,7 @@
 package com.sf9000.marsRover;
 
 
+import com.sf9000.marsRover.business.Rover;
 import com.sf9000.marsRover.enums.PointingDirections;
 import com.sf9000.marsRover.model.Plateau;
 import com.sf9000.marsRover.model.Position;

@@ -1,5 +1,6 @@
 package com.sf9000.marsRover;
 
+import com.sf9000.marsRover.business.Rover;
 import com.sf9000.marsRover.enums.PointingDirections;
 import com.sf9000.marsRover.enums.RoverActions;
 import com.sf9000.marsRover.model.Position;
@@ -14,7 +15,7 @@ import static org.junit.Assert.assertThat;
  */
 public class MoveForwardTest {
 
-    Rover rover;
+     Rover rover;
 
     private Position positionNorth;
     private Position positionNorthAfterMove;
