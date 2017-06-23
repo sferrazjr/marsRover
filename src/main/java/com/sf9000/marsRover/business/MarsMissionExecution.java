@@ -1,4 +1,4 @@
-package com.sf9000.marsRover;
+package com.sf9000.marsRover.business;
 
 import com.sf9000.marsRover.business.Rover;
 import com.sf9000.marsRover.enums.PointingDirections;
