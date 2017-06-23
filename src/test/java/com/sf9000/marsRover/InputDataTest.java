@@ -1,6 +1,6 @@
 package com.sf9000.marsRover;
 
-import com.sf9000.marsRover.utils.DataInputReader;
+import com.sf9000.marsRover.utils.InputFileReader;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -21,7 +21,7 @@ public class InputDataTest {
 
         ClassLoader classLoader = this.getClass().getClassLoader();
 
-        List<String> inputs = DataInputReader.read(classLoader.getResource( INPUT_DATA ).getFile());
+        List<String> inputs = InputFileReader.read(classLoader.getResource( INPUT_DATA ).getFile());
 
         assertThat(inputs.get(0), is("5 5"));
         assertThat(inputs.get(1), is("1 2 N"));

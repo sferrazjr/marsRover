@@ -10,7 +10,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * Created by sergio on 6/18/17.
  */
-public class DataInputReader {
+public class InputFileReader {
 
     public static List<String> read(String fileName) throws IOException {
 
